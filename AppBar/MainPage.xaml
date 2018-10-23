@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="AppBar.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppBar"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Frame x:Name="home">
+    <Grid>
+        <CommandBar>
+            <AppBarToggleButton Icon="RepeatAll" Label="V" />
+            <AppBarSeparator/>
+            <AppBarButton Icon="Back" Label="Back" Click="assss"  />
+            <AppBarButton Icon="Forward" Label="Forward" />
+            <CommandBar.Content>
+                <AppBarToggleButton Icon="Clock" Label="Clock"/>
+            </CommandBar.Content>
+        </CommandBar>
+        <TextBlock Text="Demo AppBar"/>
+    </Grid>
+    </Frame>
+</Page>
